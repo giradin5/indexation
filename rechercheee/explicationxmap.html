@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitemap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .title {
+            color: black;
+            font-style: italic;
+        }
+        .link {
+            color: orange;
+        }
+        .tooltip-inner {
+            max-width: 300px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+
+    
+    <div class="d-grid gap-2">
+        <a href="https://www.xml-sitemaps.com/"><button class="btn btn-primary" type="button">liens vers xml sitemaps</button></a>
+        <a href="https://getbootstrap.com/"><button class="btn btn-primary" type="button">liens vers bootstrap</button></a>
+        <a href="https://search.google.com/search-console/welcome"><button class="btn btn-primary" type="button">liens vers google search console</button></a>
+      </div>
+
+
+
+    <div class="container mt-5">
+        <h1 class="title">Sitemap de Mon Site</h1>
+        <button id="showSteps" class="btn btn-primary mb-4">Afficher les étapes</button>
+        <ul id="stepsList" class="list-group d-none">
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 1 : Accéder à XML Sitemaps" data-example="Ouvre ton navigateur internet et va sur https://www.xml-sitemaps.com.">
+                    Étape 1 : Accéder à XML Sitemaps
+                </a>
+                <p>------Ouvre ton navigateur internet et va sur <a href="xml-sitemap.com">XML Sitemaps.</a> </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 2 : Entrez l'URL de votre site" data-example="Trouve le champ 'Starting URL', entre l'adresse de ton site web et clique sur 'Start'.">
+                    Étape 2 : Entrez l'URL de votre site
+                </a>
+                <p>-------Trouve le champ "Starting URL", entre l'adresse de ton site web et clique sur "Start".
+                </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 3 : Attendre la génération du sitemap" data-example="Patiente quelques minutes pendant que XML Sitemaps analyse ton site. Regarde la progression affichée.">
+                    Étape 3 : Attendre la génération du sitemap
+                </a>
+                <p>Patiente quelques minutes pendant que XML Sitemaps analyse ton site. Regarde la progression affichée.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 4 : Télécharge le sitemap" data-example="Une fois terminé, clique sur 'Download your XML file' et sauvegarde le fichier sur ton ordinateur.">
+                    Étape 4 : Télécharge le sitemap
+                </a>
+                <p>------Une fois terminé, clique sur "Download your XML file" et sauvegarde le fichier sur ton ordinateur.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 5 : Ouvrir votre fichier HTML avec Bootstrap" data-example="Ouvre un éditeur de texte (comme Notepad ou VSCode), crée un nouveau fichier et nomme-le 'sitemap.html'.">
+                    Étape 5 : Ouvrir votre fichier HTML avec Bootstrap
+                </a>
+                <p>-------Ouvre un éditeur de texte (comme Notepad ou VSCode), crée un nouveau fichier et nomme-le "sitemap.html".</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 6 : Ajouter la structure de base de Bootstrap" data-example="Utilise le code HTML de base avec les styles Bootstrap et personnalisés.">
+                    Étape 6 : Ajouter la structure de base de Bootstrap
+                </a>
+                <p>-------Utilise le code HTML de base avec les styles Bootstrap et personnalisés.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 7 : Ajouter les liens du sitemap" data-example="Ouvre le fichier sitemap.xml téléchargé, copie les URL du fichier XML et colle-les dans le fichier HTML entre les balises <li>.">
+                    Étape 7 : Ajouter les liens du sitemap
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 8 : Enregistrer et visualiser" data-example="Enregistre le fichier HTML et ouvre-le dans un navigateur.">
+                    Étape 8 : Enregistrer et visualiser
+                </a>
+                <p>-------Enregistre le fichier HTML et ouvre-le dans un navigateur.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 9 : Vérifier le sitemap" data-example="Vérifie que tous les liens s'affichent correctement et clique sur les liens pour s'assurer qu'ils fonctionnent.">
+                    Étape 9 : Vérifier le sitemap
+                </a>
+                <p>-------Vérifie que tous les liens s'affichent correctement et clique sur les liens pour s'assurer qu'ils fonctionnent.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 10 : Déployer sur votre site" data-example="Téléverse le fichier 'sitemap.html' sur ton serveur web et place le fichier à la racine de ton site web.">
+                    Étape 10 : Déployer sur votre site
+                </a>
+                <p>-------Téléverse le fichier "sitemap.html" sur ton serveur web et place le fichier à la racine de ton site web.</p>
+            </li>
+        </ul>
+        <ul class="list-group">
+            <!-- Les liens du sitemap seront insérés ici -->
+            <li class="list-group-item link">
+                <a href="https://www.mon-site.com/page1" data-toggle="tooltip" title="Ceci est la page 1 de votre site">
+                    https://www.mon-site.com/page1
+                </a>
+            </li>
+            <li class="list-group-item link">
+                <a href="https://www.mon-site.com/page2" data-toggle="tooltip" title="Ceci est la page 2 de votre site">
+                    https://www.mon-site.com/page2
+                </a>
+            </li>
+            <li class="list-group-item link">
+                <a href="https://www.mon-site.com/page3" data-toggle="tooltip" title="Ceci est la page 3 de votre site">
+                    https://www.mon-site.com/page3
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Scripts pour activer les tooltips -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('#showSteps').click(function() {
+                $('#stepsList').toggleClass('d-none');
+                $(this).text($('#stepsList').hasClass('d-none') ? 'Afficher les étapes' : 'Masquer les étapes');
+            });
+
+            $('#stepsList a').click(function(e) {
+                e.preventDefault();
+                var example = $(this).data('example');
+                $(this).tooltip('hide')
+                       .attr('data-original-title', example)
+                       .tooltip('show');
+            });
+        });
+    </script>
+</body>
+</html>

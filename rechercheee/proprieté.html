@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Propriété</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .title {
+            color: black;
+            font-style: italic;
+        }
+        .tooltip-inner {
+            max-width: 300px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+
+    
+    <div class="d-grid gap-2">
+        <a href="https://www.xml-sitemaps.com/"><button class="btn btn-primary" type="button">liens vers xml sitemaps</button></a>
+        <a href="https://getbootstrap.com/"><button class="btn btn-primary" type="button">liens vers bootstrap</button></a>
+        <a href="https://search.google.com/search-console/welcome"><button class="btn btn-primary" type="button">liens vers google search console</button></a>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="title">Comment Ajouter une Propriété</h1>
+        <button id="showSteps" class="btn btn-primary mb-3">Afficher les étapes</button>
+        <ul id="stepsList" class="list-group d-none">
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 1 : Connectez-vous à votre compte Google" data-example="Ouvre ton navigateur internet et va sur https://www.google.com. Clique sur 'Se connecter' en haut à droite et entre ton adresse e-mail et ton mot de passe.">
+                    Étape 1 : Connectez-vous à votre compte Google
+                </a>
+                <p>------Ouvre ton navigateur internet et va sur Google. Clique sur "Se connecter" en haut à droite et entre ton adresse e-mail et ton mot de passe.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 2 : Accédez à Google Search Console" data-example="Dans ton navigateur, va sur https://search.google.com/search-console.">
+                    Étape 2 : Accédez à Google Search Console
+                </a>
+                <p>Dans ton navigateur, va sur <a href="google-seearch.com">Google Search Console.</a>
+                </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 3 : Cliquer sur 'Ajouter une propriété'" data-example="Dans Google Search Console, clique sur le bouton 'Ajouter une propriété' à gauche.">
+                    Étape 3 : Cliquer sur 'Ajouter une propriété'
+                </a>
+                <p>Dans <a href="Google Search Console.com">google search console</a>, clique sur le bouton "Ajouter une propriété" à gauche.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 4 : Entrer l'URL de votre site web" data-example="Tape l'adresse complète de ton site web dans le champ qui apparaît, comme 'https://www.mon-site.com'.">
+                    Étape 4 : Entrer l'URL de votre site web
+                </a>
+                <p><a href="https://www.mon-site.com">https://www.mon-site.com</a>Tape l'adresse complète de ton site web dans le champ qui apparaît, comme </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 5 : Choisir une méthode de vérification" data-example="Google va te demander de prouver que tu es bien le propriétaire du site. Choisis une méthode, comme 'Ajouter un fichier HTML'.">
+                    Étape 5 : Choisir une méthode de vérification
+                </a>
+                <p>------Google va te demander de prouver que tu es bien le propriétaire du site. Choisis une méthode, comme "Ajouter un fichier HTML".</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 6 : Télécharger le fichier HTML de vérification" data-example="Clique sur le bouton pour télécharger un fichier HTML. Ce fichier va aider Google à vérifier que le site t'appartient.">
+                    Étape 6 : Télécharger le fichier HTML de vérification
+                </a>
+                <p>-------Clique sur le bouton pour télécharger un fichier HTML. Ce fichier va aider Google à vérifier que le site t'appartient.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 7 : Télécharger le fichier HTML sur ton site web" data-example="Ouvre le gestionnaire de fichiers de ton site (comme FileZilla) et transfère le fichier HTML à la racine de ton site.">
+                    Étape 7 : Télécharger le fichier HTML sur ton site web
+                </a>
+                <p>-------Ouvre le gestionnaire de fichiers de ton site (comme FileZilla) et transfère le fichier HTML à la racine de ton site.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 8 : Confirmer la vérification dans Google Search Console" data-example="Retourne sur Google Search Console et clique sur 'Vérifier'. Google va vérifier le fichier que tu as téléchargé.">
+                    Étape 8 : Confirmer la vérification dans Google Search Console
+                </a>
+                <p>-------Retourne sur Google Search Console et clique sur "Vérifier". Google va vérifier le fichier que tu as téléchargé.</p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 9 : Vérifier que votre site est bien ajouté" data-example="Si tout est bon, Google te dira que la vérification est réussie. Ton site est maintenant ajouté à Google Search Console.">
+                    Étape 9 : Vérifier que votre site est bien ajouté
+                </a>
+                <p>-------Si tout est bon, Google te dira que la vérification est réussie. Ton site est maintenant ajouté à Google Search Console.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <a href="#" data-toggle="tooltip" title="Étape 10 : Explorer les outils de Google Search Console" data-example="Maintenant que ton site est ajouté, explore les outils pour voir comment Google voit ton site et obtenir des conseils pour l'améliorer.">
+                    Étape 10 : Explorer les outils de Google Search Console
+                </a>
+                <p>--------Maintenant que ton site est ajouté, explore les outils pour voir comment Google voit ton site et obtenir des conseils pour l'améliorer.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Scripts pour activer les tooltips -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('#showSteps').click(function() {
+                $('#stepsList').toggleClass('d-none');
+                $(this).text($('#stepsList').hasClass('d-none') ? 'Afficher les étapes' : 'Masquer les étapes');
+            });
+
+            $('#stepsList a').click(function(e) {
+                e.preventDefault();
+                var example = $(this).data('example');
+                $(this).tooltip('hide')
+                       .attr('data-original-title', example)
+                       .tooltip('show');
+            });
+        });
+    </script>
+</body>
+</html>
